@@ -1,5 +1,6 @@
 package com.litetech.libs.statemangerlibrary;
 
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -11,3 +12,4 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 }
+

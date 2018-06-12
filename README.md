@@ -39,7 +39,7 @@ SateManager sm = StateManager.getInstance();
 sm.deleteObject("Message");
 ``` 
 
-##Licence
+## Licence
 
 Copyright 2017 Litetech Ghana
 

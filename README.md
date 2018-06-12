@@ -4,7 +4,7 @@ This library is a simple state manager written in Java for android
 
 ## How to use it
 In your application or starting activity ```onCreate()``` method initialize the library by calling `SateManager.init(Context context)`
-> NB: you can call this method anywhere in your code by it must be called before you start using any other methods provided by the StateManager class
+> NB: you can call this method anywhere in your code but it must be called before you start using any other methods provided by the StateManager class
 ``` java
 public class SateApp extends Application {
     @Override

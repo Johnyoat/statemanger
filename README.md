@@ -2,6 +2,41 @@
 
 This library is a simple state manager written in Java for android
 
+### Sdk Version ###
+`compileSdkVersion` >= 25
+
+### Importing to project ###
+
+#### Example for Gradle: ####
+
+Step 1. Add it in your root build.gradle at the end of repositories:
+```groovy
+allprojects {
+	repositories {
+		...
+		maven { url "https://jitpack.io" }
+		maven { url "https://maven.google.com" }
+	}
+}
+```
+
+##### If you're using gradle 3.+.+ 
+```groovy
+allprojects {
+	repositories {
+		...
+		maven { url "https://jitpack.io" }
+		google()
+	}
+}
+```
+
+Step 2. Add the dependency
+```groovy
+implementation 'com.github.Johnyoat:statemanger:1.0.0'
+implementation 'com.google.code.gson:gson:2.8.5'
+```
+
 ## How to use it
 In your application or starting activity ```onCreate()``` method initialize the library by calling `SateManager.init(Context context)`
 > NB: you can call this method anywhere in your code but it must be called before you start using any other methods provided by the StateManager class
